@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(3, 3, 70);
+    /* background-image: url('./images/dev3.png') no-repeat; */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(39, 39, 132);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(85, 85, 228);
+    font-size: 1.02rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+/* Only firstSection vale div ko hi width mila h uske ander vale div ko nhi milega */
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 2rem;
+}
+
+.rightSection img {
+    width: 90%;
+    /* margin: 32px 0; */
+}
+
+.purple {
+    color: rgb(174, 103, 239);
+}
+
+#element {
+    color: rgb(174, 103, 239);
+}
+
+hr {
+    border: 0;
+    background: rgb(182, 149, 213);
+    height: 0.1px;
+    margin: 40px 80px;
+}
+
+.sectionSecond {
+    max-width: 80vw;
+    margin: auto;
+    height: 35rem;
+}
+
+.leftSection .button .btn {
+    padding: 8.1px;
+    background: #1e2167;
+    border: solid white 1px;
+    border-radius: 7px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leftSection .button .btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.leftSection .button {
+    padding: 50px 0px;
+}
+
+.sectionSecond h1 {
+    font-size: 1.9rem;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.sectionSecond .box {
+    background: white;
+    width: 77vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.sectionSecond .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 140px;
+}
+
+.image-top {
+    height: 50px;
+    position: relative;
+    top: -45px;
+    left: -22px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 31px;
+    left: -17px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 38px;
+    left: -17px;
+    width: 150px;
+    font-size: 14px;
+    color: gray;
+}
+
+footer {
+    background-color: rgb(13 21 59);
+    height: 9rem;
+    padding: 12px 12px;
+}
+
+.footer-first {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+ul {
+    margin: 17px 8rem;
+    list-style: none;
+}
+p{
+    margin: 26px 34rem;
+}
